@@ -1,4 +1,5 @@
-# 2k train data, 1k test data
+# Get 2k train data, 1k test and valid data
+# 从一堆数据中随机抽取2k作为训练集，1k作为验证与测试集
 def make_data(subset_name, start_idx, end_idx):
     for category in ('cat', 'dog'):
         new_dir = new_base_dir / subset_name / category
