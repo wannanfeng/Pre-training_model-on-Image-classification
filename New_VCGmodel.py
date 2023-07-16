@@ -2,8 +2,8 @@ from torchvision import models
 import torch.nn as nn
 import torch
 # model = models.vgg16()
-# print(model)  Parts: features, avgpool, classifier
-
+# print(model) -> Parts: features, avgpool, classifier
+# 可以打印出来看看原本模型的内容
 class VCG(nn.Module):
     def __init__(self, ):
         super(VCG, self).__init__()
