@@ -67,7 +67,7 @@ for epoch in tqdm(range(epochs)):
     for i, (data, label) in enumerate(train_loader):
         '''
         data -> (B, C ,W, H): (32, 3, 224, 224)
-        label ->(B, 2) cat:0 , dog:1
+        label -> (B, 2)  cat:0 , dog:1
         '''
         data = data.to(device)
         label = label.to(device)
