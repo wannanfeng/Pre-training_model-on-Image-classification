@@ -30,6 +30,7 @@ def covert(values):
 seed_set(20230711)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+# image root
 train_dir = pathlib.Path.cwd().parent / 'new_cats_dogs' / 'train'
 test_dir = pathlib.Path.cwd().parent / 'new_cats_dogs' / 'test'
 # print(train_dir)
