@@ -9,7 +9,7 @@ The results are high on both the test set and the validation set, maybe overfitt
 
 一个使用预训练模型VCG16实现图片分类的小项目(一个尝试)
 
-只用了2个epoch和3k图像数据:2k训练集，0.5k验证集，0.5k测试集(轻薄本电脑不想让它受罪训练过大了QAQ)
+只用了2个epoch和3k图像数据:2k训练集，0.5k验证集，0.5k测试集
 
 测试集和验证集上的效果都很高，也许出现了overfitting is all you need
 
